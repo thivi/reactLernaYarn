@@ -1,0 +1,19 @@
+{
+  "name": "lernaYarnWorkspaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna run build",
+    "prebuild": "yarn"
+  },
+  "workspaces":["packages/*"],
+  "keywords": [],
+  "author": "Theviyanthan",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.18.5"
+  },
+  "private": true
+}

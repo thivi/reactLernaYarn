@@ -1,0 +1,29 @@
+{
+    "name": "sample-counter",
+    "version": "0.1.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
+    },
+    "files": [
+        "dist"
+    ],
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ]
+    },
+    "keywords": [],
+    "author": "Theviyanthan",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.7.0",
+        "@babel/core": "^7.7.2",
+        "@babel/preset-react": "^7.7.0"
+    },
+    "peerDependencies": {
+        "react": "^16.12.0"
+    }
+}
