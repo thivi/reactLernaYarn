@@ -8,12 +8,14 @@
     "build": "lerna run build",
     "prebuild": "yarn"
   },
-  "workspaces":["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "keywords": [],
   "author": "Theviyanthan",
   "license": "ISC",
   "dependencies": {
-    "lerna": "^3.18.5"
+    "lerna": "3.22.1"
   },
   "private": true
 }
